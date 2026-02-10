@@ -1,0 +1,15 @@
+{
+	"tasks": [
+		{
+			"label": "Build and Run Raytracer",
+			"type": "shell",
+			"command": "cmake --build ${workspaceFolder}/build && cd ${workspaceFolder}/build && ./rayTracer",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	],
+	"version": "2.0.0"
+}
