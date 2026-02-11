@@ -50,16 +50,12 @@ build CMakeFiles/rayTracer.dir/main.cpp.obj: CXX_COMPILER__rayTracer_ C$:/Users/
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include
   OBJECT_DIR = CMakeFiles\rayTracer.dir
   OBJECT_FILE_DIR = CMakeFiles\rayTracer.dir
-  TARGET_COMPILE_PDB = CMakeFiles\rayTracer.dir\
-  TARGET_PDB = rayTracer.pdb
 
 build CMakeFiles/rayTracer.dir/import/glad/src/glad.c.obj: C_COMPILER__rayTracer_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/src/glad.c || cmake_object_order_depends_target_rayTracer
   DEP_FILE = CMakeFiles\rayTracer.dir\import\glad\src\glad.c.obj.d
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include
   OBJECT_DIR = CMakeFiles\rayTracer.dir
   OBJECT_FILE_DIR = CMakeFiles\rayTracer.dir\import\glad\src
-  TARGET_COMPILE_PDB = CMakeFiles\rayTracer.dir\
-  TARGET_PDB = rayTracer.pdb
 
 
 # =============================================================================
@@ -74,10 +70,9 @@ build rayTracer.exe: CXX_EXECUTABLE_LINKER__rayTracer_ CMakeFiles/rayTracer.dir/
   OBJECT_DIR = CMakeFiles\rayTracer.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\rayTracer.dir\
   TARGET_FILE = rayTracer.exe
   TARGET_IMPLIB = librayTracer.dll.a
-  TARGET_PDB = rayTracer.pdb
+  TARGET_PDB = rayTracer.exe.dbg
 
 
 #############################################
@@ -262,8 +257,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_ C
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -272,8 +265,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_ C$:/
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -282,8 +273,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_ C$:
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -292,8 +281,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_ C
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -302,8 +289,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_ 
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -312,8 +297,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_ C$
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -322,8 +305,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_ C$
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -332,8 +313,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glf
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -342,8 +321,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -352,8 +329,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -362,8 +337,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -372,8 +345,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glf
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -382,8 +353,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -392,8 +361,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -402,8 +369,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -412,8 +377,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -422,8 +385,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -432,8 +393,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -442,8 +401,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -452,8 +409,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 build import/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_ C$:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -462,8 +417,6 @@ build import/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glf
   INCLUDES = -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glad/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/include -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/import/glfw-3.4/src -IC:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/import/glfw-3.4/src
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
 
 
 # =============================================================================
@@ -477,9 +430,8 @@ build import/glfw-3.4/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_ import/glfw
   OBJECT_DIR = import\glfw-3.4\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = import\glfw-3.4\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_FILE = import\glfw-3.4\src\libglfw3.a
-  TARGET_PDB = import\glfw-3.4\src\libglfw3.pdb
+  TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
@@ -671,14 +623,14 @@ build import/glfw-3.4/src/all: phony import/glfw-3.4/src/libglfw3.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../import/glfw-3.4/CMakeLists.txt ../import/glfw-3.4/CMake/cmake_uninstall.cmake.in ../import/glfw-3.4/CMake/glfw3.pc.in ../import/glfw-3.4/CMake/glfw3Config.cmake.in ../import/glfw-3.4/docs/CMakeLists.txt ../import/glfw-3.4/src/CMakeLists.txt C$:/Program$ Files/CMake/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.c.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.21.3/CMakeCCompiler.cmake CMakeFiles/3.21.3/CMakeCXXCompiler.cmake CMakeFiles/3.21.3/CMakeRCCompiler.cmake CMakeFiles/3.21.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../import/glfw-3.4/CMakeLists.txt ../import/glfw-3.4/CMake/cmake_uninstall.cmake.in ../import/glfw-3.4/CMake/glfw3.pc.in ../import/glfw-3.4/CMake/glfw3Config.cmake.in ../import/glfw-3.4/docs/CMakeLists.txt ../import/glfw-3.4/src/CMakeLists.txt C$:/Program$ Files/CMake/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.21.3/CMakeCCompiler.cmake CMakeFiles/3.21.3/CMakeCXXCompiler.cmake CMakeFiles/3.21.3/CMakeRCCompiler.cmake CMakeFiles/3.21.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../import/glfw-3.4/CMakeLists.txt ../import/glfw-3.4/CMake/cmake_uninstall.cmake.in ../import/glfw-3.4/CMake/glfw3.pc.in ../import/glfw-3.4/CMake/glfw3Config.cmake.in ../import/glfw-3.4/docs/CMakeLists.txt ../import/glfw-3.4/src/CMakeLists.txt C$:/Program$ Files/CMake/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.c.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.21.3/CMakeCCompiler.cmake CMakeFiles/3.21.3/CMakeCXXCompiler.cmake CMakeFiles/3.21.3/CMakeRCCompiler.cmake CMakeFiles/3.21.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../import/glfw-3.4/CMakeLists.txt ../import/glfw-3.4/CMake/cmake_uninstall.cmake.in ../import/glfw-3.4/CMake/glfw3.pc.in ../import/glfw-3.4/CMake/glfw3Config.cmake.in ../import/glfw-3.4/docs/CMakeLists.txt ../import/glfw-3.4/src/CMakeLists.txt C$:/Program$ Files/CMake/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.21.3/CMakeCCompiler.cmake CMakeFiles/3.21.3/CMakeCXXCompiler.cmake CMakeFiles/3.21.3/CMakeRCCompiler.cmake CMakeFiles/3.21.3/CMakeSystem.cmake: phony
 
 
 #############################################

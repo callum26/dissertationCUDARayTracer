@@ -1,16 +1,17 @@
 # ninja log v5
 74	1769	7925485097965305	import/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.obj	c8ba240a53804dc8
+5	2135	7925485101668895	CMakeFiles/rayTracer.dir/main.cpp.obj	f7a77f19619db310
 20	1798	7925485098265581	import/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.obj	7133ec094a8d7499
 61	1850	7925485098801129	import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_time.c.obj	efacb39d6e287aa6
-68	1889	7925485099171457	import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_init.c.obj	d312b5546b95c4b1
 51	1891	7925485099211495	import/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.obj	ae4424d357e53119
+46	1929	7925485099586915	import/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.obj	56c52c2d3e3fcc6b
+8	1923	7925485099536859	import/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.obj	330747134c9eb575
 79	1898	7925485099271550	import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_module.c.obj	1368b9e4f55bb09a
-40	1902	7925485099311588	import/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	139c106b75359589
+68	1889	7925485099171457	import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_init.c.obj	d312b5546b95c4b1
 24	1904	7925485099331607	import/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.obj	820613148a20f305
+40	1902	7925485099311588	import/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	139c106b75359589
 86	1906	7925485099341620	import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_thread.c.obj	f989fedb0fab02cb
 56	1909	7925485099391692	import/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.obj	a6bf57b726a65131
-8	1923	7925485099536859	import/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.obj	330747134c9eb575
-46	1929	7925485099586915	import/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.obj	56c52c2d3e3fcc6b
 112	1932	7925485099616934	import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	3dc1eb3982f4dbd9
 101	1933	7925485099616934	import/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj	fe4323fd353df15a
 14	1935	7925485099646965	import/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.obj	7f57fc552d371612
@@ -21,6 +22,5 @@
 29	1993	7925485100247503	import/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.obj	5d4f993e5fed2f44
 11	2007	7925485100367619	import/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.obj	d837160d0eb10870
 121	2015	7925485100457700	import/glfw-3.4/src/CMakeFiles/glfw.dir/win32_window.c.obj	d020a6d910e59ee7
-5	2135	7925485101668895	CMakeFiles/rayTracer.dir/main.cpp.obj	f7a77f19619db310
-2015	2282	7925485103145257	import/glfw-3.4/src/libglfw3.a	ef0074d52020cf2
 2283	2439	7925485104656694	rayTracer.exe	38c8d369c0d88ea6
+2015	2282	7925485103145257	import/glfw-3.4/src/libglfw3.a	ef0074d52020cf2
