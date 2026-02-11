@@ -3,7 +3,7 @@
 		{
 			"label": "Build and Run Raytracer",
 			"type": "shell",
-			"command": "cmake --build ${workspaceFolder}/build && cd ${workspaceFolder}/build && ./rayTracer",
+			"command": "cd ${workspaceFolder}/build; cmake -G Ninja ..; if ($?) { cmake --build . }; if ($?) { ./rayTracer }",
 			"problemMatcher": [],
 			"group": {
 				"kind": "build",
