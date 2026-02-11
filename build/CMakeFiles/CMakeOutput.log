@@ -528,3 +528,9 @@ Run Build Command(s):C:/PROGRA~1/CMake/bin/ninja.exe cmTC_741b2 && [1/2] Buildin
 
 
 
+Checking whether the CUDA compiler is NVIDIA using "" matched "nvcc: NVIDIA \(R\) Cuda compiler driver":
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2025 NVIDIA Corporation
+Built on Tue_Dec_16_19:27:18_Pacific_Standard_Time_2025
+Cuda compilation tools, release 13.1, V13.1.115
+Build cuda_13.1.r13.1/compiler.37061995_0

@@ -1,0 +1,71 @@
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/nvcc.exe 
+Build flags: 
+Id flags: --keep;--keep-dir;tmp -v
+
+The output was:
+1
+nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/nvcc.exe 
+Build flags: 
+Id flags:  -v
+
+The output was:
+1
+nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/nvcc.exe 
+Build flags: 
+Id flags: --keep;--keep-dir;tmp -v
+
+The output was:
+1
+nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/nvcc.exe 
+Build flags: 
+Id flags:  -v
+
+The output was:
+1
+nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
+
+
+Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: NVIDIA \(R\) Cuda compiler driver":
+nvcc fatal   : No input files specified; use option --help for more information
+Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+nvcc fatal   : No input files specified; use option --help for more information
+Checking whether the CUDA compiler is NVIDIA using "" did not match "nvcc: NVIDIA \(R\) Cuda compiler driver":
+nvcc fatal   : No input files specified; use option --help for more information
+Checking whether the CUDA compiler is Clang using "" did not match "(clang version)":
+nvcc fatal   : No input files specified; use option --help for more information
+Detecting CUDA compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/CMake/bin/ninja.exe cmTC_f5563 && [1/2] Building CUDA object CMakeFiles\cmTC_f5563.dir\CMakeCUDACompilerABI.cu.obj
+FAILED: CMakeFiles/cmTC_f5563.dir/CMakeCUDACompilerABI.cu.obj 
+C:\PROGRA~1\NVIDIA~2\CUDA\v13.1\bin\nvcc.exe      -c "C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCUDACompilerABI.cu" -o CMakeFiles\cmTC_f5563.dir\CMakeCUDACompilerABI.cu.obj
+nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: C:/Users/callu/OneDrive/Documents/GitHub/dissertationRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/CMake/bin/ninja.exe cmTC_140c5 && [1/2] Building CUDA object CMakeFiles\cmTC_140c5.dir\main.cu.obj
+FAILED: CMakeFiles/cmTC_140c5.dir/main.cu.obj 
+C:\PROGRA~1\NVIDIA~2\CUDA\v13.1\bin\nvcc.exe      -c C:\Users\callu\OneDrive\Documents\GitHub\dissertationRayTracer\build\CMakeFiles\CMakeTmp\main.cu -o CMakeFiles\cmTC_140c5.dir\main.cu.obj
+nvcc fatal   : Cannot find compiler 'cl.exe' in PATH
+ninja: build stopped: subcommand failed.
+
+
+

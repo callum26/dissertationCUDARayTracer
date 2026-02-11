@@ -1,6 +1,20 @@
 {
     "configurations": [
         {
+            "name": "Windows",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/import/glad/include",
+                "${workspaceFolder}/import/glfw-3.4/include",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/include"
+            ],
+            "defines": [],
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        },
+        {
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",

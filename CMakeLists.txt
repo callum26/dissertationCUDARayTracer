@@ -2,11 +2,15 @@
 cmake_minimum_required(VERSION 3.10)
 
 # project name
-project(rayTracer)
+project(rayTracer LANGUAGES CXX CUDA)
 
 # setting the C++ version
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+
+# setting CUDA version
+set(CMAKE_CUDA_STANDARD 17)
+set(CMAKE_CUDA_STANDARD_REQUIRED TRUE)
 
 # libraries --
 
@@ -18,7 +22,7 @@ include_directories("${CMAKE_CURRENT_SOURCE_DIR}/import/glad/include")
 add_subdirectory(import/glfw-3.4)
 
 # executable --
-add_executable(rayTracer main.cpp ${GLAD_SRC})
+add_executable(rayTracer main.cu ${GLAD_SRC})
 
 # linking libraries
 target_link_libraries(rayTracer PRIVATE glfw ${CMAKE_THREAD_LIBS_INIT})
